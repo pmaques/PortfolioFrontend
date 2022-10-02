@@ -10,7 +10,7 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { LogrosComponent } from './componentes/logros/logros.component';
 import { PortfolioService } from './servicios/portfolio.service';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +23,8 @@ import {HttpClientModule} from '@angular/common/http'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

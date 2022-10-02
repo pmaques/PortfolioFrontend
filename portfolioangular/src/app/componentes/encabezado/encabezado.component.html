@@ -19,19 +19,19 @@
   <div class="container block1">
   <div id="fondo"></div>
   <div class="foto">
-  <img src="../../../assets/roedor.jpeg"/>
+  <img [src]="miPortfolio.backImage"/>
   <i class="fa-solid fa-pen"></i>
   </div>
   <div class="row">
     <div class="col-md-8">
-        <h1>Paola Marques</h1>
+        <h1>{{miPortfolio.name}}</h1>
     </div>
     <div class="col-md-4 logo1">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Conicet_Logo_con_letras.png/640px-Conicet_Logo_con_letras.png" alt="logo conicet" width="20%" height="20"> 
     <p> CONICET</p>          
     </div> 
     <div class="col-md-8 estilo1">
-        <p>Informática en CONICET</p>
+        <p>{{miPortfolio.position}}</p>
         <p>Buenos Aires (Argentina) <span>Información de contacto</span></p>
         <button type="button" class="btn btn-primary">Tengo interés en</button>
     <button type="button" class="btn btn-light">Añadir Sección</button>

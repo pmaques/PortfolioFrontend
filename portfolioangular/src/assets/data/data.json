@@ -1,0 +1,60 @@
+{
+    "name": "Paola Marques",
+    "backImage": "../../../assets/roedor.jpeg",
+    "image": " #36D1DC",
+    "position": "Informática en CONICET",
+    "company": {
+        "name": "CONICET",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Conicet_Logo_con_letras.png/640px-Conicet_Logo_con_letras.png",
+        "url": "#"
+    },
+    "school": {
+        "name": "Universidad de Buenos aires",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Logo_de_la_Universidad_de_Buenos_Aires.jpg/479px-Logo_de_la_Universidad_de_Buenos_Aires.jpg",
+        "url": "#"
+
+    },
+    "location": "Buenos Aires (Argentina)",
+    "about": "Desarrollador Full Stack, Argentina",
+    "experience": [{
+        "position": "Backend Developer",
+        "company": "Pixer",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKIQw9AcDMomraPgY6-vOJ5jDwtLxQUOpVRQ&usqp=CAU",
+        "mode": "Jornada parcial",
+        "start": "mar 2019",
+        "end": "actualidad",
+        "timeElapsed": "2 años y 6 meses",
+        "location": "Guadalajara y alrededores, México"
+    }],
+    "education": [{
+        "school": "UTN",
+        "title": "Ingeniería",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKIQw9AcDMomraPgY6-vOJ5jDwtLxQUOpVRQ&usqp=CAU",
+        "career": "Ssitemas Computacionales",
+        "score": 0,
+        "start": "2019",
+        "end": "2023"
+    },
+    {
+        "school": "Centro de Enseñanza Técnica Industrial",
+        "title": "Tecnologo",
+        "img":"data:image/png;base64,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",
+        "career": "Desarrollo de software",
+        "score": 82,
+        "start": "2014",
+        "end": "2018"
+    },
+    {
+        "school": "Escuela Secundaria Técnica 14",
+        "title": "Técnico",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKIQw9AcDMomraPgY6-vOJ5jDwtLxQUOpVRQ&usqp=CAU",
+        "career": "Técnico, electrónica, comunicación y sistemas de control",
+        "score": 0,
+        "start": "2012",
+        "end": "2014"
+    } 
+    
+
+    ]
+
+}
